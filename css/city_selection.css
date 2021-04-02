@@ -1,0 +1,432 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    background: #498CEC;
+}
+
+.container {
+    max-width: 1360px;
+}
+
+.container2 {
+    max-width: 1190px;
+    margin-left: 92px;
+    margin-right: 75px;
+    margin-top: 73px;
+    margin-bottom: 122px;
+}
+
+.block1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    width: 579px;
+    height: 97px;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px 0 10px 40px;
+}
+
+.submit {
+    border: none;
+    background: inherit;
+    font-size: 30px;
+    transform: translate(-90px, 2px);
+    color: #1086FF;
+}
+
+.for__form {
+    width: 100%;
+}
+
+.country {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.cilcy {
+    display: flex;
+    width: 77px;
+    height: 29px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.cilcy_c {
+    width: 50%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 3px;
+    border-right: 1px solid #FFFFFF;
+    border-radius: 8px 0 0 8px;
+    background-color: rgba(73, 140, 236, 0.6);
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+.cilcy_c:hover {
+    cursor: pointer;
+}
+
+.cilcy_f {
+    width: 50%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 3px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.cilcy_c:hover {
+    background-color: rgba(73, 140, 236, 0.5);
+    cursor: pointer;
+}
+
+.block2 {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 190px;
+}
+
+.change__country {
+    margin-right: 29px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 60%;
+    text-decoration: none;
+}
+
+.location_img {
+    margin-right: 11.5px;
+    margin-left: 10px;
+}
+
+.my__loacation {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 60%;
+    text-decoration: none;
+}
+
+.block3 {
+    width: 100%;
+    display: flex;
+    height: 15em;
+}
+
+.sun {
+    width: 250px;
+    height: 250px;
+}
+
+.ninety {}
+
+.temperature {
+    width: 50%;
+    font-size: 190px;
+    color: #FFFFFF;
+}
+
+.sun__item {
+    width: 50%;
+    text-align: right;
+}
+
+.info_weather {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.full_info {
+    display: flex;
+    width: 100%;
+    margin-top: 225px;
+}
+
+.veter {
+    width: 25%;
+}
+
+.veter__text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin-bottom: 10px;
+}
+
+.veter__inner {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.davleniya {
+    width: 25%;
+    /* margin-right: 30px; */
+    padding-left: 20px;
+}
+
+.davleniya__text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin-bottom: 10px;
+}
+
+.davleniya__inner {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.vlajnost {
+    width: 25%;
+    /* margin-right: 25px; */
+    padding-left: 30px;
+}
+
+.vlajnost__text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin-bottom: 10px;
+}
+
+.vlajnost__inner {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.dojd {
+    width: 25%;
+    padding-left: 20px;
+}
+
+.dojd__text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 60%;
+    margin-bottom: 10px;
+}
+
+.dojd__inner {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+
+/* ======= @media ====== */
+
+
+/* == Custom, iPhone Retina == */
+
+@media only screen and (max-width: 375px) {
+    body {
+        font-family: 'Lato', sans-serif;
+        font-family: 'PT Sans', sans-serif;
+        background: rgba(114, 144, 185, 1)
+    }
+    .container {
+        max-width: 375px;
+    }
+    .container2 {
+        max-width: 365px;
+        margin-left: 14px;
+        margin-right: 27px;
+        margin-top: 19px;
+    }
+    .block2 {
+        display: flex;
+        margin-top: 15px;
+        margin-bottom: 130px;
+        justify-content: space-between;
+    }
+    .change__country {
+        margin-right: 29px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        opacity: 60%;
+        text-decoration: none;
+    }
+    .location_img {
+        margin-right: 7.5px;
+        margin-left: 5px;
+    }
+    .my__loacation {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        opacity: 60%;
+        text-decoration: none;
+    }
+    .country {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+    .block3 {
+        width: 100%;
+        display: flex;
+        height: 8em;
+    }
+    .sun {
+        width: 120px;
+        height: 120px;
+    }
+    .temperature {
+        width: 50%;
+        font-size: 90px;
+    }
+    .sun__item {
+        width: 50%;
+        text-align: right;
+    }
+    .info_weather {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 15px;
+    }
+    .full_info {
+        flex-wrap: wrap;
+    }
+    .full_info {
+        display: flex;
+        width: 100%;
+        margin-top: 135px;
+    }
+    .veter {
+        width: 50%;
+        margin-bottom: 33px;
+    }
+    .veter__text {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        opacity: 60%;
+        margin-bottom: 5px;
+    }
+    .veter__inner {
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+    .davleniya {
+        width: 50%;
+        /* margin-right: 30px; */
+        padding-left: 15px;
+    }
+    .davleniya__text {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        opacity: 60%;
+        margin-bottom: 5px;
+    }
+    .davleniya__inner {
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+    .vlajnost {
+        width: 50%;
+        /* margin-right: 25px; */
+        padding-left: 0px;
+    }
+    .vlajnost__text {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        opacity: 60%;
+        margin-bottom: 5px;
+    }
+    .vlajnost__inner {
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+    .dojd {
+        width: 50%;
+        /* padding-left: 5px; */
+        padding-left: 14px;
+    }
+    .dojd__text {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        opacity: 60%;
+        margin-bottom: 10px;
+    }
+    .dojd__inner {
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+    .cilcy {
+        display: none;
+    }
+    .text {
+        width: 310px;
+        height: 57px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 10px 0 10px 20px;
+    }
+    .submit {
+        border: none;
+        background: inherit;
+        font-size: 20px;
+        transform: translate(250px, -40px);
+        color: #1086FF;
+    }
+    .for__form {
+        width: 100%;
+    }
+}
