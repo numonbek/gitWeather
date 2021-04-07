@@ -31,7 +31,7 @@ if(isset($_POST['submit'])){
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/city_selection.css">
-        <title>Document</title>
+        <title>Document full</title>
     </head>
 
     <body>
